@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 1.3rem;
+    background: #3a3d3c;
+}
+
+
+/*Global codes*/
+.container{
+    margin: 0;
+    padding: 0; 
+}
+
+.content_container{
+    margin: 0px 20px !important;
+    padding: 5px;
+    background-color: rgb(53, 0, 0);
+}
+
+.img{
+    max-width: 100%;
+}
+
+
+/*Head Section*/
+.logo_nav{
+    height: 50px;
+    display: flex;
+}
+
+/*Logo*/
+.logo{
+    height: 50px;
+}
+
+.logo a img{
+    max-height: 100%;
+}
+
+/*Navigation Bar*/
+.nav_bar{
+    width: 90%;
+}
+
+.nav_bar ul{
+    display: flex;
+    float: right;
+}
+
+.nav_bar ul li{
+    padding: 10px 0;
+    list-style: none;
+}
+
+.nav_bar ul li a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav_bar ul li p{
+    padding: 0px 20px;
+    padding-bottom: 3px;
+    color: #fff;
+}
+
+/*Hover Style*/
+.nav_bar ul li:hover{
+    background-color: rgb(131, 30, 30);
+}
+
+.dropdown_list a:hover{
+    background-color: rgb(131, 30, 30); 
+}
+/*Dropdown Style*/
+.dropdown{
+    position: relative;
+    display: block;
+    
+}
+
+.dropdown_list{
+    margin-top: 2px;
+    display: none;
+    position: absolute;
+    background-color: rgb(53, 0, 0);
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown_list{
+    display: block;
+}
+
+
+/*Middle Section*/
+.middle{
+    background-color: rgb(0, 0, 0);
+}
+
+/*Footer*/
+.foot{
+    display: flex;
+}
+
+/*Logo and Name*/
+.logo_name{
+    width: 20%;
+}
+
+.logo_name a img{
+    max-height: 50px;
+    padding-left: 12%;
+}
+
+.logo_name a{
+    text-decoration: none;
+   
+}
+
+.logo_name a p{
+    color: #fff;
+    display: block !important;
+    font-size: 15px;
+}
+
+/*Copyright Scetion*/
+
+.copyright{
+    width: 80%;
+}
+
+.copyright p{
+    width: 1195px;
+    padding: 9px 0px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.copyright p span{
+    font-size: 22px;
+}
